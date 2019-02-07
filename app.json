@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "page/three/three",
+    "page/two/two",
+    "page/one/one",
+    "page/index/index",
+    "page/utils/utils"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#1BC3B8",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "纪念日",
+    "backgroundColor":"#FF0000",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
+    "navigationStyle": "default",
+    "onReachBottomDistance": 300
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF7F00",
+    "borderStyle": "black",
+    "backgroundColor": "#8DEEEE",
+    "position": "bottom",
+
+    "list": [{
+      "pagePath": "page/three/three",
+      "iconPath": "image/main2.png",
+      "text": "主页",
+      "selectedIconPath": "image/main1.png"
+    },
+    {
+      "pagePath": "page/two/two",
+      "iconPath": "image/act2.png",
+      "text": "好玩",
+      "selectedIconPath": "image/act1.png"
+    },
+    {
+      "pagePath": "page/one/one",
+      "iconPath": "image/like2.png",
+      "text": "点赞",
+      "selectedIconPath": "image/like1.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+}

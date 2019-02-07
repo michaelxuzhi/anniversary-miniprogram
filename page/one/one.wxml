@@ -1,0 +1,24 @@
+<!--page/one/one.wxml-->
+<view>
+
+  <view>
+    <image bindtap="chooseimage" src="{{tempFilePaths}}" mode="widthFix" style='width:100%'></image>
+  </view>
+
+  <!-- <view>现在是{{time}}</view> -->
+
+  <view>
+  <view class='txt1'><text>试试魔性的5个按钮</text></view>
+<view class='vi5'>
+    <image class='red' bindtap='red' src='../../image/red.png' mode='aspectFill'></image>
+    <image class='red' bindtap='blue1' src='../../image/blue1.png' mode='aspectFill'></image>
+    <image class='red' bindtap='yellow' src='../../image/yellow.png' mode='aspectFill'></image>
+    <image class='red' bindtap='blue2' src='../../image/blue2.png' mode='aspectFill'></image>
+    <image class='red' bindtap='green' src='../../image/green.png' mode='aspectFill'></image>
+  </view>
+    
+
+    <!-- <text>已经开始{{d}}天{{h}}小时{{m}}分{{s}}秒</text> -->
+  </view>
+
+</view>

@@ -1,0 +1,34 @@
+/* page/one/one.wxss */
+.text1{
+  text-indent: 30rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50rpx;
+  display: flex;
+}
+page{
+  background: rebeccapurple;
+}
+
+.vi5{
+
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+
+}
+.red{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.txt1{
+  font-weight: bold;
+  color: #BFEFFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40rpx;
+  margin: 20rpx 0rpx 20rpx 10rpx;
+  text-align: center;
+}
